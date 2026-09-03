@@ -1,51 +1,30 @@
-# Active Directory Homelab — Windows Server 2022
+## 📸 Visual Walkthrough
 
-A hands‑on homelab project built on Windows Server 2022 to demonstrate enterprise‑level Active Directory deployment and management.  
-Includes domain setup, DNS configuration, Kerberos authentication, Group Policy baselines, and M365 integration.
+Below are key stages of the Active Directory homelab build:
 
-## 🧩 Features
-- Domain Controller installation and configuration  
-- DNS zone and record setup  
-- Kerberos policy tuning and authentication flow  
-- Group Policy management and security baselines  
-- Azure AD Connect and M365 identity integration  
-- PowerShell automation scripts for provisioning and reporting  
+1. **Windows Server 2022 Installation**
+   - Initial setup and configuration using Oracle VirtualBox.
+   - Server Manager dashboard showing system details and remote management enabled.
 
-## 🧠 Purpose
-Showcase real‑world IT Support, SysAdmin, and Cloud Engineering skills through a fully documented Active Directory environment.
+2. **Active Directory Domain Services (AD DS) Installation**
+   - Role installation wizard with AD DS, DNS, and Group Policy Management.
+   - Successful prerequisite check and domain promotion to `itsolutions.local`.
 
-## ⚙️ Technologies
-- Windows Server 2022  
-- Active Directory Domain Services (AD DS)  
-- DNS  
-- Kerberos  
-- Group Policy  
-- Azure AD / Microsoft 365  
-- PowerShell  
+3. **Domain Controller Configuration**
+   - Server promoted to Domain Controller.
+   - Verified DNS zone creation and Kerberos authentication setup.
 
-## 📂 Repository Structure
+4. **Organizational Units & Users**
+   - Created OUs: Executives, HR, Domain Controllers, and Users.
+   - Added user *Michael Reyes* (CEO of IT Solutions).
 
--AD-domain-setup/
+5. **Group Policy Management**
+   - Configured GPOs: Default Domain Policy, Default Domain Controllers Policy, Test-GPO, and Executive-Policy.
+   - Example: “Prohibit access to Control Panel and PC settings” applied to Executives OU.
 
--Domain-Controllers/
-
--Kerberos/
-
--GPOs/
-
--M365-Integration/
-
--DNS/
-
--Homelab-virtualization/
-
--Documentation/
-
--Diagrams/
-
--Scripts/
+6. **PowerShell Automation**
+   - Demonstrated directory creation and scripting for homelab organization.
 
 ---
 
-**Author:** Juan Arroyo  
-**Project Type:** Enterprise Homelab / IT Solutions  
+Each screenshot documents a major milestone — from installation to policy enforcement — showing real-world system administration workflow and technical proficiency.
