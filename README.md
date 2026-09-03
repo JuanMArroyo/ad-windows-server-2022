@@ -26,16 +26,24 @@ Showcase real‑world IT Support, SysAdmin, and Cloud Engineering skills through
 ## 📂 Repository Structure
 
 -AD-domain-setup/
--Domain-Controllers/
--Kerberos/
--GPOs/
--M365-Integration/
--DNS/
--Homelab-virtualization/
--Documentation/
--Diagrams/
--Scripts/
 
+-Domain-Controllers/
+
+-Kerberos/
+
+-GPOs/
+
+-M365-Integration/
+
+-DNS/
+
+-Homelab-virtualization/
+
+-Documentation/
+
+-Diagrams/
+
+-Scripts/
 
 ---
 
