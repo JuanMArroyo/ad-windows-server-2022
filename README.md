@@ -21,7 +21,7 @@ Below are key stages of the Active Directory homelab build:
    - Verified DNS zone creation and Kerberos authentication setup.
   
 ![Server-Manager](./screenshots/server-manager.png)
-![Kerberos](./screenshots/kerberos.png)
+![Kerberos](./screenshots/Kerberos.png)
 
 4. **Organizational Units & Users**
    - Created OUs: Executives, HR, Domain Controllers, and Users.
