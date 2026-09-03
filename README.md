@@ -39,7 +39,7 @@ Below are key stages of the Active Directory homelab build:
 6. **PowerShell Automation**
    - Demonstrated directory creation and scripting for homelab organization.
   
-![AD core]!(./screenshots/AD-core.png)
+![AD core](./screenshots/AD-core.png)
 
 ---
 
