@@ -1,5 +1,7 @@
 # Windows Server 2022 Active Directory Homelab
 
+> Solution package: [business and technical documentation](docs/solution-package.md)
+
 Portfolio project demonstrating how I built and validated a small Active Directory environment on Windows Server 2022 using Oracle VirtualBox. The project focuses on identity foundations, DNS, Kerberos, organizational units, Group Policy, and basic PowerShell administration.
 
 ## Why I built it
